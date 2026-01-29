@@ -3,61 +3,66 @@ import sys
 # Force UTF-8 output for Windows console
 sys.stdout.reconfigure(encoding='utf-8')
 
-from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_chroma import Chroma
+from langchain_openai import OpenAIEmbeddings
 from dotenv import load_dotenv
+from langchain_openai import ChatOpenAI
+from langchain_core.messages import HumanMessage, SystemMessage
 
-# Load environment variables
 load_dotenv()
 
-def query_vector_store(query_text, persistent_directory="db/chroma_db", k=3):
-    """
-    Query the ChromaDB vector store for relevant documents using cosine similarity.
-    """
-    print(f"\n--- Querying Vector Store ---")
-    print(f"Query: '{query_text}'")
-    
-    if not os.path.exists(persistent_directory):
-        print(f"Error: Vector store not found at {persistent_directory}. Please run ingestion_pipeline.py first.")
-        return
+persistent_directory = "db/chroma_db"
+openai_api_base = os.getenv("OPENAI_API_BASE")
 
-    # Initialize the same embedding model used in ingestion
-    print("Loading embedding model...")
-    embedding_model = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+# Load embeddings and vector store
+embedding_model = OpenAIEmbeddings(
+    model="text-embedding-3-small",
+    openai_api_base=openai_api_base
+)
 
-    # Connect to the existing vector store
-    # Note: We don't provide collection_metadata here as we are loading an existing one
-    vectorstore = Chroma(
-        persist_directory=persistent_directory,
-        embedding_function=embedding_model
-    )
-    
-    print(f"Connected to vector store with {vectorstore._collection.count()} documents.")
-    
-    # Perform similarity search with score (cosine distance)
-    # ChromaDB with "hnsw:space": "cosine" returns cosine distance.
-    # Distance = 1 - Cosine Similarity. Lower distance = Higher similarity.
-    print(f"Searching for top {k} relevant documents...")
-    results = vectorstore.similarity_search_with_score(query_text, k=k)
-    
-    if not results:
-        print("No relevant documents found.")
-        return
-        
-    print(f"\nFound {len(results)} relevant chunks:")
-    print("-" * 50)
-    
-    for i, (doc, score) in enumerate(results):
-        print(f"Result {i+1} (Cosine Distance: {score:.4f}):") 
-        # Note: Score is distance, so lower is better. 
-        # If you want Similarity, it would be roughly 1 - score (for normalized vectors)
-        
-        print(f"Source: {doc.metadata.get('source', 'Unknown')}")
-        print(f"Content Preview: {doc.page_content[:200]}...")
-        print("-" * 50)
+db = Chroma(
+    persist_directory=persistent_directory,
+    embedding_function=embedding_model,
+    collection_metadata={"hnsw:space": "cosine"}  
+)
 
-if __name__ == "__main__":
-    # Define a new query as requested
-    user_query = "What are the latest developments in artificial intelligence and machine learning?"
-    
-    query_vector_store(user_query)
+# Search for relevant documents
+query = "How much did Microsoft pay to acquire GitHub?"
+
+retriever = db.as_retriever(search_kwargs={"k": 5})
+
+relevant_docs = retriever.invoke(query)
+
+print(f"User Query: {query}")
+print("--- Context ---")
+for i, doc in enumerate(relevant_docs, 1):
+    print(f"Document {i}:\n{doc.page_content}\n")
+
+# Combine the query and the relevant document contents
+combined_input = f"""Based on the following documents, please answer this question: {query}
+
+Documents:
+{chr(10).join([f"- {doc.page_content}" for doc in relevant_docs])}
+
+Please provide a clear, helpful answer using only the information from these documents. If you can't find the answer in the documents, say "I don't have enough information to answer that question based on the provided documents."
+"""
+
+# Create a ChatOpenAI model
+model = ChatOpenAI(
+    model="gemini-2.5-flash",
+    openai_api_base=openai_api_base
+)
+
+# Define the messages for the model
+messages = [
+    SystemMessage(content="You are a helpful assistant."),
+    HumanMessage(content=combined_input),
+]
+
+# Invoke the model with the combined input
+result = model.invoke(messages)
+
+# Display the full result and content only
+print("\n--- Generated Response ---")
+print("Content only:")
+print(result.content)

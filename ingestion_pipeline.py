@@ -4,7 +4,7 @@ import sys
 sys.stdout.reconfigure(encoding='utf-8')
 from langchain_community.document_loaders import TextLoader, DirectoryLoader
 from langchain_text_splitters import CharacterTextSplitter
-from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_openai import OpenAIEmbeddings
 from langchain_chroma import Chroma
 from dotenv import load_dotenv
 
@@ -76,8 +76,12 @@ def split_documents(documents, chunk_size=1000, chunk_overlap=0):
 def create_vector_store(chunks, persist_directory="db/chroma_db"):
     """Create and persist ChromaDB vector store"""
     print("Creating embeddings and storing in ChromaDB...")
-        
-    embedding_model = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+    
+    openai_api_base = os.getenv("OPENAI_API_BASE")
+    embedding_model = OpenAIEmbeddings(
+        model="text-embedding-3-small",
+        openai_api_base=openai_api_base
+    )
     
     # Create ChromaDB vector store
     print("--- Creating vector store ---")
@@ -104,7 +108,11 @@ def main():
     if os.path.exists(persistent_directory):
         print("Vector store already exists. No need to re-process documents.")
         
-        embedding_model = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+        openai_api_base = os.getenv("OPENAI_API_BASE")
+        embedding_model = OpenAIEmbeddings(
+            model="text-embedding-3-small",
+            openai_api_base=openai_api_base
+        )
         vectorstore = Chroma(
             persist_directory=persistent_directory,
             embedding_function=embedding_model, 
