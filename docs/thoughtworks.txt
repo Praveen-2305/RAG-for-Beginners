@@ -1,0 +1,149 @@
+
+WikipediaThe Free Encyclopedia
+
+Donate
+Create account
+Log in
+
+Since 2001, Wikipedia has become the backbone of knowledge on the internet. Discover 25 years of Wikipedia
+
+
+Thoughtworks
+
+Article
+Talk
+Read
+Edit
+View history
+
+Tools
+From Wikipedia, the free encyclopedia
+Thoughtworks Holding, Inc.
+
+Company type	Private
+Industry	Software industry
+Founded	1993; 33 years ago
+Founder	Neville Roy Singham
+Headquarters	Chicago, Illinois, U.S.
+Number of locations	49[1]
+Key people	
+Mike Sutcliff (CEO)
+Martin Fowler
+Services	AI first software delivery
+Number of employees	10,000[2]
+Website	thoughtworks.com
+Footnotes / references
+[3][4]
+Thoughtworks Holding, Inc. is a privately held, global technology company with 49 offices in 18 countries.[5] It provides software design and delivery, and tools and consulting services. The company's Chief Scientist co-authored the Agile Manifesto and is closely associated with the movement for Agile software development, and has contributed to open source products. Thoughtworks' business includes enterprise platforms modernization and AI first software delivery.[6][7]
+
+History
+1980s–1990s
+In the late 1980s, Roy Singham founded Singham Business Services as a management consulting company servicing the equipment leasing industry in a Chicago basement. According to Singham, after two-to-three years, Singham started recruiting additional staff and came up with the name Thoughtworks in 1990.[8] The company was incorporated under the new name in 1993 and focused on building software applications.[9] Over time, Thoughtworks' technology shifted from C++ and Forte 4GL in the mid-1990s to include Java in the late 1990s.[citation needed]
+
+1990s–2010s
+Martin Fowler joined the company in 1999 and became its chief scientist in 2000.[10]
+
+In 2001, Thoughtworks agreed to settle a lawsuit by Microsoft for $480,000 for deploying unlicensed copies of office productivity software to employees.[11]
+
+Also in 2001, Fowler, Jim Highsmith, and other key software figures authored the Agile Manifesto.[12] The company began using agile techniques while working on a leasing project.[13] Thoughtworks' technical expertise expanded with the .NET Framework in 2002,[14] C# in 2004, Ruby and the Rails platform in 2006.[15] In 2002, Thoughtworks chief scientist Martin Fowler wrote "Patterns of Enterprise Application Architecture" with contributions by ThoughtWorkers David Rice and Matthew Foemmel, as well as outside contributors Edward Hieatt, Robert Mee, and Randy Stafford.[16]
+
+Thoughtworks Studios was launched as its product division in 2006 and shut down in 2020. The division created, supported and sold agile project management and software development and deployment tools including Mingle,[17] Gauge (formerly Twist), Snap CI[18] and GoCD.[19]
+
+On 2 March 2007, Thoughtworks announced Trevor Mather as the new CEO.[20] Singham became Executive chairman. Also in March 2007, Rebecca Parsons assumed the role of Chief Technical Officer, having been with the company since 1999.[21][22]
+
+By 2008, Thoughtworks employed 1,000 people and was growing at the rate of 20–30% p.a., with bases around the world. Its clients included Microsoft, Oracle, major banks, and The Guardian newspaper.[23] Singham owned 97% of the common stock of the company.[23] By 2010, its clients included Daimler AG, Siemens and Barclays, and had opened a second headquarters in Bangalore.[24]
+
+In 2010, Singham opened Thoughtworks’ Fifth Agile Software Development Conference in Beijing.[25]
+
+2010s–2020s
+In 2010, Jim Highsmith joined Thoughtworks.[26]
+
+In April 2013, Thoughtworks announced a collective leadership structure and appointed four co-Presidents of the global organization.[27][28] The appointments followed the announcement that the then current CEO, Trevor Mather, was leaving Thoughtworks to take up the role of CEO for the used car sales business Trader Media Group.[29]
+
+In May 2013, Dr. David Walton was hired as Director of Global Health.[30] Walton has done work in Haiti since 1999, including helping establish a 300-room, solar-powered hospital and the establishment of a noncommunicable disease clinic.[31]
+
+In 2015, Guo Xiao, who started as a developer in Thoughtworks China in 1999, became the chief executive officer and President. Also in 2015, Chinese marketing data company AdMaster acquired Chinese online form automation platform JinShuJu from Thoughtworks.[32][33]
+
+In early 2016, Thoughtworks closed their Toronto offices, the last remaining Canadian office after the closure of their Calgary offices in 2013. They have since reopened the Toronto office.[34]
+
+Singham sold the company to British private equity firm Apax Partners in 2017 for $785 million, by which time it had 4,500 employees across 15 countries, including South Africa.[25][35][36][37] Singham left the company.
+
+After 2017, several members of Thoughtworks senior staff began to work for the People's Support Foundation, founded by Singham's partner Jodie Evans with the support of Chad Wathington, Thoughtworks' chief strategy officer, and Jason Pfetcher, Thoughtworks' former general counsel.[25]
+
+2020s–Present
+Thoughtworks announced that it acquired Gemini Solutions Inc. in January 2021. Gemini is a privately held software development consulting services firm, and it is based in Romania.[38] At the end of January 2021, Thoughtworks raised $720 million in funding according to data compiled by Chicago Inno.[39] The following month, Thoughtworks acquired Fourkind, a machine learning and data science consulting company based in Finland.[40] In March 2021, Thoughtworks worked with the Veterans Affairs Department to deploy a centralized mechanism for delivering updates via 'VANotify'.[41]
+
+On September 15, 2021, Thoughtworks IPO'd on the NASDAQ and is listed as $TWKS.
+
+In April 2022, Thoughtworks acquired Connected, a product development company based in Canada.[42][43]
+
+In May 2024, Guo Xiao stepped down as CEO of Thoughtworks, with the transition becoming official in June 2024. He is succeeded by Mike Sutcliff.[44]
+
+In November 2024, Thoughtworks was taken private by Apax Partners for $4.40 per share.[45]
+
+Notable employees
+Aaron Swartz
+Jim Highsmith
+Martin Fowler
+Ola Bini
+Zack Exley
+Zhamak Dehghani
+See also
+Software industry in Telangana
+References
+ "About the company". Retrieved 2019-12-06.
+ "Company overview".
+ "Thoughtworks Reports Fourth Quarter and Full Year 2023 Financial Results". Yahoo Finance. 2024-02-27. Retrieved 2024-04-25.
+ Kellaher, Colin (May 7, 2024). "Thoughtworks CEO Guo Xiao Stepping Aside; Mike Sutcliff Taking Helm". MarketWatch. Retrieved June 18, 2024.
+ "About us| ThoughtWorks". www.thoughtworks.com. Retrieved 2021-03-05.
+ "Case Study: ThoughtWorks Makes Distributed Agile Work". forrester.com. Retrieved 2020-03-27.
+ "AI-First Software Engineering: The New Frontier". 2025-06-30. Retrieved 2025-11-12.
+ Lundy, Dave. 2003. Ex-activist backs revolution in software. Chicago Sun-Times, October 23. "At the time, I was an independent consultant working in the leasing business, but I realized I didn't want to work on my own. So, I recruited a few people, and we built a company called Singham Business Services for two or three years doing consulting and leasing. Then in 1990, I came up with the name ThoughtWorks."
+ Gale Directory of Company Histories accessed 2011-7-20 "The fledgling enterprise recruited some of its first technical staff by posting bulletin board notices at the University of Chicago. ThoughtWorks soon grew from an initial staff of 8 people to 30 consultants at the time of its official incorporation in 1993.
+ Jones, Capers (2013). The Technical and Social History of Software Engineering. Pearson Education. p. 234. ISBN 9780321903426. Retrieved 6 April 2016.
+ Simpson, Glen (January 31, 2001). "ThoughtWorks Will Pay $480,000 To Settle Software Copyright Case". Wall Street Journal. Retrieved April 6, 2016.
+ "Agile Manifesto history". Agile Manifesto.
+ Lundy, Dave. 2003. Ex-activist backs revolution in software. Chicago Sun-Times, October 23.
+ Martin Fowler books, section: Patterns of Enterprise Application Architecture, accessed 7-20-2011
+ Ruby at ThoughtWorks accessed 2007-7-20.
+ Fowler, Martin (2002). Patterns of Enterprise Application Architecture. Addison-Wesley Professional. ISBN 0321127420.
+ Mingle
+ Snap CI
+ GoCD
+ "ThoughtWorks, Global IT Services Firm, Names Trevor Mather CEO". Business Wire. Brookshire Hathaway. 2007-03-01. Retrieved 2016-01-02.
+ Hastie, Shane (June 19, 2012). "An Interview with Rebecca Parsons - ThoughtWorks CTO". InfoQ. Retrieved April 6, 2016.
+ "Executive Profile: Rebecca Parsons". Bloomberg.
+ Kirkpatrick, David (Mar 17, 2008). "The socialist state of ThoughtWorks". Fortune. Retrieved Sep 11, 2011.
+ Sen, Chiranjoy (2010-03-27). "'Big software packages on last legs'". The Economic Times. Retrieved 2022-01-26.
+ Reid Ross, Alexander; Dobson, Courtney (January 18, 2022). "The Big Business of Uyghur Genocide Denial". New Lines. Fairfax University of America. Retrieved January 19, 2022.
+ "Jim Highsmith Joins ThoughtWorks". Information Technology Newsweekly. 28 September 2010.
+ Smith, Fiona (August 1, 2013). "Thoughtworks: Where Four Heads Are Better Than One". Financial Review. Retrieved April 6, 2016.
+ "ThoughtWorks Announces New CEO and Collective Leadership Structure". PR Newswire. April 10, 2013.
+ Cookson, Robert (April 3, 2013). "Trader Media Resolves Search for Chief". Financial Times. Retrieved April 6, 2016.
+ "ThoughtWorks Announces the Hiring of Dr. David Walton". Health & Medicine Weekly. May 24, 2013.
+ "Bringing the Best of Modern Medicine to Those Who Need It Most" (PDF). National Foundation for Infectious Diseases. NFID. Retrieved April 6, 2016.
+ "AdMaster Acquires Chinese Online Forms Firm JinShuJu from ThoughtWorks". M&A Navigator. November 10, 2015.
+ "More M&A/IPO News for Nov. 3". Dow Jones. Private Equity & Venture Capital. November 3, 2015. Retrieved 6 April 2016.
+ "Contact Us". thoughtworks.com. Retrieved 2021-05-03.
+ "Software co ThoughtWorks gets $720 million". The Times of India. 2021-01-16. Retrieved 2022-01-25.
+ Moyo, Admire (2018-03-14). "How ThoughtWorks quietly departed SA". ITWeb. Retrieved 2022-01-26.
+ "A Global Web of Chinese Propaganda Leads to a U.S. Tech Mogul". The New York Times. 2023-08-05. Archived from the original on 2023-08-05. Retrieved 2023-08-05. =Six months after his wedding, he sold Thoughtworks to a private equity firm. A copy of the sale agreement put the price at $785 million.
+ Visconti, Ambrogio (27 January 2021). "ThoughtWorks' Acquisition Of Gemini Solutions". Retrieved 2021-04-01.
+ Davis, Katherine. "Chicago tech raises $1.7B in January amid 2 mega-funding rounds". Bizjournals. Retrieved 2021-04-08.
+ Davis, Katherine. "ThoughtWorks acquires Finland startup to expand its European footprint". BizJournals. Retrieved 2021-04-01.
+ "VA Launches New Platform to Send Veterans Personalized Notifications". Nextgov.com. 8 March 2021. Retrieved 2021-04-08.
+ Trumbull, Ty (2022-04-29). "Thoughtworks Acquires Product Development Company Connected". ChannelE2E: Technology News for MSPs & Channel Partners. Retrieved 2022-05-27.
+ Lipsky, Cole (2022-04-27). "Thoughtworks Acquires Connected". themiddlemarket.com. Retrieved 2022-05-27.
+ "Thoughtworks (TWKS) CEO to Retire". StreetInsider.com. Retrieved 2024-12-10.
+ Dorbian, Iris (2024-11-15). "Apax Partners takes tech consultancy Thoughtworks private for $1.75bn". PE Hub. Retrieved 2024-12-12.
+External links
+Official website Edit this at Wikidata
+Business data for Thoughtworks Holding, Inc.: GoogleSEC filingsYahoo!
+vte
+Consulting
+Categories: Indian companies established in 1993Software companies established in 1993Companies listed on the NasdaqEnterprise architectureEnterprise application integrationInformation technology consulting firms of the United StatesLinux companiesSoftware companies based in IllinoisSoftware companies of IndiaSoftware designSoftware development processAgile software developmentSoftware companies of the United States2021 initial public offeringsApax Partners companies
+This page was last edited on 22 January 2026, at 06:31 (UTC).
+Text is available under the Creative Commons Attribution-ShareAlike 4.0 License; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policyAbout WikipediaDisclaimersContact WikipediaLegal & safety contactsCode of ConductDevelopersStatisticsCookie statementMobile view
+Wikimedia Foundation
+Powered by MediaWiki
